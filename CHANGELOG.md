@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.1.3] - 2021-04-17
+
+- Improved `markdown` syntax.
+- Fixed `markdown` syntax colors for list and number list.
+
 ## [v0.1.2] - 2021-04-17
 
 - Added advance styles for `markdown`.

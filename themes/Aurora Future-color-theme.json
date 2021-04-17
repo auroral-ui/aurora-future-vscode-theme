@@ -295,7 +295,8 @@
         "variable.other.constant.js",
         "text.html.vue-html",
         "constant.numeric.json.comments",
-        "constant.numeric.json"
+        "constant.numeric.json",
+        "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"
       ],
       "settings": {
         "foreground": "#cccccc"
@@ -548,7 +549,6 @@
         "source.css meta.property-list.scss meta.property-value.scss",
         "source.css support.constant.mathematical-symbols.scss meta.property-value.scss meta.property-list.scss",
         "source.css.scss source.vue",
-        "text.html.markdown markup.list.unnumbered.markdown",
         "text.html.markdown markup.inline.raw.string.markdown",
         "source.css variable.css",
         "meta.tag.block.any.html",
@@ -564,7 +564,8 @@
         "keyword.operator.assignment.ts",
         "source.js meta.template.expression.js punctuation.definition.template-expression.begin.js",
         "source.js meta.template.expression.js punctuation.definition.template-expression.end.js",
-        "source.js punctuation.separator"
+        "source.js punctuation.separator",
+        "fenced_code.block.language.markdown"
       ],
       "settings": {
         "foreground": "#da67da"
@@ -608,7 +609,6 @@
         "source.js meta.group.braces.round.js meta.jsx.js meta.embedded.expression.jsx meta.group.braces.curly.js string.interpolated.js keyword.other.template.begin.js",
         "source.js meta.group.braces.round.js meta.jsx.js meta.embedded.expression.jsx meta.group.braces.curly.js string.interpolated.js keyword.other.template.end.js",
         "source.css support.constant",
-        "fenced_code.block.language.markdown",
         "variable.other.property.ts",
         "variable.other.readwrite.ts",
         "variable.other.constant.ts",
@@ -624,8 +624,9 @@
         "constant.language.json",
         "source.js meta.export.default.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js support.class.builtin.js",
         "source.js meta.export.default.js meta.objectliteral.js meta.object.member.js constant.language",
-        "text.html.markdown markup.quote.markdown punctuation.definition.quote.begin.markdown",
-        "text.html.markdown markup.list.numbered.markdown punctuation.definition.list.begin.markdown"
+        "text.html.markdown markup.list.numbered.markdown punctuation.definition.list.begin.markdown",
+        "text.html.markdown markup.list.unnumbered.markdown",
+        "text.html.markdown markup.quote.markdown punctuation.definition.quote.begin.markdown"
       ],
       "settings": {
         "foreground": "#61D0FF"
