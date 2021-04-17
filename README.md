@@ -56,3 +56,7 @@ Therefore the main goal of this theme is to use the main colors of Auroral-UI an
 ### Yaml
 
 ![](./screenshots/yaml.png)
+
+---
+
+Hope you enjoy!~
