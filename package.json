@@ -1,0 +1,32 @@
+{
+  "name": "aurora-future",
+  "displayName": "Aurora Future",
+  "description": "A futuristic vscode theme.",
+  "publisher": "auroral-ui",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "Benny Guo",
+    "email": "code.tridiamond@gmail.com",
+    "url": "https://tridiamond.tech"
+  },
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aurora Future",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Aurora Future-color-theme.json"
+      }
+    ]
+  }
+}
