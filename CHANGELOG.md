@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v0.1.1] - 2021-04-17
 
-- Updated debug console styles and colors.
+- Changed `editor.dropBackground` to transparent purple.
+- Added custom `debug console` styles and colors.
+- Added custom `git` related styles and colors.
+- Added custom `terminal` related styles and colors.
+- Added custom `text-color` related styles and colors.
 
 ## [v0.1.0] - 2021-04-17
 
