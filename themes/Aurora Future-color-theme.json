@@ -284,7 +284,6 @@
         "source.css support.function",
         "source.css entity.other.attribute-name.scss",
         "source.css meta.at-rule.keyframes.scss",
-        "meta.paragraph.markdown",
         "markup.fenced_code.block.markdown",
         "variable.other.object.ts",
         "variable.other.object.property.ts",
@@ -393,7 +392,11 @@
         "punctuation.definition.parameters.begin.js",
         "punctuation.definition.parameters.end.js",
         "punctuation.definition.block.js",
-        "punctuation.definition.binding-pattern.object.js"
+        "punctuation.definition.binding-pattern.object.js",
+        "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown",
+        "text.html.markdown meta.paragraph.markdown meta.image.inline.markdown punctuation.definition.metadata.markdown",
+        "text.html.markdown punctuation.definition.bold.markdown",
+        "text.html.markdown punctuation.definition.italic.markdown"
       ],
       "settings": {
         "foreground": "#3f4144"
@@ -427,7 +430,8 @@
         "source.css support.type.vendor-prefix.css",
         "source.ts variable.language.this.ts",
         "source.ts keyword.control.export.ts",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "text.html.markdown markup.italic.markdown"
       ],
       "settings": {
         "fontStyle": "italic"
@@ -435,7 +439,12 @@
     },
     {
       "name": "Comment",
-      "scope": ["comment"],
+      "scope": [
+        "comment",
+        "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown",
+        "markup.underline.link.image.markdown text.html.markdown meta.paragraph.markdown meta.image.inline.markdown",
+        "text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown"
+      ],
       "settings": {
         "foreground": "#6c6d72"
       }
@@ -469,7 +478,10 @@
         "support.function.json.ts",
         "support.function",
         "entity.name.type.instance.jsdoc",
-        "entity.name.function.js"
+        "entity.name.function.js",
+        "text.html.markdown markup.bold.markdown",
+        "text.html.markdown markup.italic.markdown",
+        "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown string.other.link.title.markdown"
       ],
       "settings": {
         "foreground": "#9569ec"
@@ -536,8 +548,8 @@
         "source.css meta.property-list.scss meta.property-value.scss",
         "source.css support.constant.mathematical-symbols.scss meta.property-value.scss meta.property-list.scss",
         "source.css.scss source.vue",
-        "markup.list.unnumbered.markdown",
-        "markup.inline.raw.string.markdown",
+        "text.html.markdown markup.list.unnumbered.markdown",
+        "text.html.markdown markup.inline.raw.string.markdown",
         "source.css variable.css",
         "meta.tag.block.any.html",
         "punctuation.definition.string.template.begin.ts",
@@ -609,7 +621,11 @@
         "support.variable.property.ts",
         "variable.other.object.js",
         "constant.language.json.comments",
-        "constant.language.json"
+        "constant.language.json",
+        "source.js meta.export.default.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.object.member.js support.class.builtin.js",
+        "source.js meta.export.default.js meta.objectliteral.js meta.object.member.js constant.language",
+        "text.html.markdown markup.quote.markdown punctuation.definition.quote.begin.markdown",
+        "text.html.markdown markup.list.numbered.markdown punctuation.definition.list.begin.markdown"
       ],
       "settings": {
         "foreground": "#61D0FF"

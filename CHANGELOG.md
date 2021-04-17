@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.1.2] - 2021-04-17
+
+- Added advance styles for `markdown`.
+- Fixed `const` styles in JS export default.
+
 ## [v0.1.1] - 2021-04-17
 
 - Changed `editor.dropBackground` to transparent purple.
