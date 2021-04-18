@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.1.4] - 2021-04-18
+
+### Added
+
+- Added theme `keywords` in package.json
+- Added theme `bug` link in package.json
+- Added theme `gallery` in package.json
+
+### Changed
+
+- Improved `typescript` syntax colors.
+- Changed all the `gitDecoration` colors to improve visual harmony.
+- Changed the `activityBar.activeBorder` color.
+- Changed `activityBar` icon color.
+- Updated theme `icon` image (logo).
+
 ## [v0.1.3] - 2021-04-17
 
 - Improved `markdown` syntax.
