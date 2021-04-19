@@ -7,6 +7,11 @@
     "focusBorder": "#5939637a",
     "progressBar.background": "#893CF5",
     "window.activeBorder": "#202020",
+    "sash.hoverBorder": "#893CF5",
+
+    "textPreformat.foreground": "#da67da",
+    "textSeparator.foreground": "#893CF5",
+    "textBlockQuote.border": "#893CF5",
 
     "pickerGroup.foreground": "#cccccc",
     "pickerGroup.border": "#1A1A1A",
@@ -16,7 +21,6 @@
     "dropdown.foreground": "#cccccc",
 
     "textBlockQuote.background": "#1A1A1A",
-    "textBlockQuote.border": "#202020",
     "textCodeBlock.background": "#1A1A1A",
     "textLink.foreground": "#b079fc",
     "textLink.activeForeground": "#bf95fa",
