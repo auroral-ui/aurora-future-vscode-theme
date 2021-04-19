@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.1.5] - 2021-04-19
+
+### Changes
+
+- Changed `welcome` window status bar colors.
+- Improved `terminal` syntax colors.
+
 ## [v0.1.4] - 2021-04-18
 
 ### Added
