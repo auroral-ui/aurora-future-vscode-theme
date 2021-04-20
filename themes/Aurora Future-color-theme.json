@@ -54,9 +54,6 @@
     "editorBracketMatch.border": "#1A1A1A",
     "editorBracketMatch.background": "#5939634d",
 
-    "editorHoverWidget.background": "#1A1A1A",
-    "editorHoverWidget.border": "#181818",
-
     "editorOverviewRuler.border": "#181818",
     "editorOverviewRuler.findMatchForeground": "#67da76",
     "editorOverviewRuler.rangeHighlightForeground": "#61D0FF",
@@ -75,6 +72,20 @@
     "editorGutter.addedBackground": "#61D0FF",
     "editorGutter.deletedBackground": "#da67da",
     "editorGutter.foldingControlForeground": "#58595e",
+
+    "editorWidget.foreground": "#cccccc",
+    "editorWidget.background": "#202020",
+    "editorWidget.border": "#893CF5",
+
+    "editorSuggestWidget.background": "#1A1A1A",
+    "editorSuggestWidget.border": "#181818",
+    "editorSuggestWidget.foreground": "#cccccc",
+    "editorSuggestWidget.highlightForeground": "#893CF5",
+
+    "editorHoverWidget.background": "#1A1A1A",
+    "debugExceptionWidget.background": "#1A1A1A",
+    "debugExceptionWidget.border": "#181818",
+    "editorHoverWidget.border": "#181818",
 
     "peekView.border": "#181818",
     "peekViewEditor.background": "#202020",
@@ -98,8 +109,13 @@
 
     "panel.background": "#1A1A1A",
     "panelSection.border": "#202020",
-    "panelTitle.activeBorder": "#893CF5",
     "panel.border": "#181818",
+
+    "panelTitle.activeBorder": "#893CF5",
+    "panelTitle.activeForeground": "#893CF5",
+    "panelTitle.inactiveForeground": "#893cf55e",
+    "panelSection.dropBackground": "#2f033b2d",
+    "panel.dropBorder": "#893CF5",
 
     "tree.indentGuidesStroke": "#59396359",
     "list.activeSelectionBackground": "#59396359",
