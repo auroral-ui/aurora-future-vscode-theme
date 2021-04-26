@@ -7,16 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-04-26
+
+### :sparkles: New
+
+- Complete refactored all the tokens
+- Keeping all `scss`, `css` code scheme retain the same colors.
+- Added color for markdown separator `---`
+
 ## [0.1.7] - 2021-04-20
 
-### Added
+### :sparkles: New
 
 - Added theme colors for `editor widget`.
 - Added theme colors for `panel` (compatible with Insider).
 
 ## [0.1.6] - 2021-04-20
 
-### Added
+### :sparkles: New
 
 - Added theme color for `quote block`.
 - Added theme color for `inline code`.
@@ -31,13 +39,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.4] - 2021-04-18
 
-### Added
+### :sparkles: New
 
 - Added theme `keywords` in package.json
 - Added theme `bug` link in package.json
 - Added theme `gallery` in package.json
 
-### Changed
+### :crystal_ball: Changed
 
 - Improved `typescript` syntax colors.
 - Changed all the `gitDecoration` colors to improve visual harmony.
@@ -67,7 +75,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/auroral-ui/aurora-future-vscode-theme/compare/v0.1.7...HEAD
+[unreleased]: https://github.com/auroral-ui/aurora-future-vscode-theme/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/auroral-ui/aurora-future-vscode-theme/compare/v0.1.7...v0.2.0
 [0.1.7]: https://github.com/auroral-ui/aurora-future-vscode-theme/compare/v0.1.6...v0.1.7
 [0.1.6]: https://github.com/auroral-ui/aurora-future-vscode-theme/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/auroral-ui/aurora-future-vscode-theme/compare/v0.1.4...v0.1.5
