@@ -14,7 +14,7 @@
     "textBlockQuote.border": "#893CF5",
 
     "pickerGroup.foreground": "#cccccc",
-    "pickerGroup.border": "#1A1A1A",
+    "pickerGroup.border": "#443a3a",
 
     "dropdown.background": "#202020",
     "dropdown.border": "#1A1A1A",
@@ -373,16 +373,19 @@
         "punctuation.definition.string.end",
         "punctuation.section.block.begin",
         "punctuation.section.block.end",
+        "punctuation.definition.binding-pattern.object",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end",
+        "punctuation.definition.block",
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "meta.brace.round",
         // JS
         "source.js punctuation.section.brackets.begin",
         "source.js punctuation.section.brackets.end",
         "source.js punctuation.section.group.begin",
         "source.js punctuation.section.group.end",
-        "meta.brace.round.js",
         "source.js meta.brace",
-        "punctuation.definition.parameters.begin.js",
-        "punctuation.definition.parameters.end.js",
-        "punctuation.definition.block.js",
         "punctuation.definition.binding-pattern.object.js",
         "source.js meta.export.js meta.block.js meta.for.js meta.group.js punctuation.section.group.js",
         "source.js meta.for.js meta.group.js punctuation.section.group.js",
@@ -392,6 +395,7 @@
         "source.js meta.function.arrow.js punctuation.definition.parameters.end.js",
         "text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue meta.array.literal.js meta.brace.square.js",
         "meta.function.js punctuation.definition.parameters.begin.js",
+        // TSX
         // TS
         "source.ts punctuation.section.brackets.begin",
         "source.ts punctuation.section.brackets.end",
@@ -463,7 +467,7 @@
         "source.postcss punctuation.section.property-list"
       ],
       "settings": {
-        "foreground": "#3f4144"
+        "foreground": "#505153"
       }
     },
     {
@@ -510,12 +514,13 @@
       "name": "Comment",
       "scope": [
         "comment",
+        "meta.import string.quoted.single",
         "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown",
         "markup.underline.link.image.markdown text.html.markdown meta.paragraph.markdown meta.image.inline.markdown",
         "text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#6c6d72"
+        "foreground": "#65666b"
       }
     },
     {
@@ -570,10 +575,8 @@
         "source.yaml punctuation.separator",
         // HTML / TEMPLATE
         "meta.tag.block.any.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.begin.xml",
-        "punctuation.definition.tag.end.xml",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
         "source.js meta.group.braces.round.js meta.tag.jsx punctuation.definition.tag.begin.jsx",
         "source.js meta.group.braces.round.js meta.tag.jsx punctuation.definition.tag.end.jsx",
         // JS
@@ -596,6 +599,7 @@
         "source.js meta.export.js meta.class.js meta.block.js meta.function.declaration.js entity.name.function.constructor.js",
         "source.js keyword.operator.ternary.js",
         "source.js meta.object-literal.js punctuation.separator.key-value.js",
+        // TSX
         // TS
         "source.ts meta.object-literal.key.ts punctuation.separator.key-value.ts",
         "keyword.operator.assignment.ts",
@@ -670,6 +674,7 @@
         "entity.other.attribute-name",
         "entity.other.inherited-class",
         "source.yaml punctuation.definition.block.sequence.item.yaml",
+        "variable.other.object",
         // JSON
         "constant.language.json.comments",
         "constant.language.json",
